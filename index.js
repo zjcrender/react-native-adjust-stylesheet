@@ -9,7 +9,7 @@ import {
 
 const device = Dimensions.get('window');  //设备的物理像素宽高
 
-const oneLogicPixel = 1 / PixelRatio.get();  // 逻辑像素1px对应的物理像素
+// const minSize = 1 / PixelRatio.get();  // 设备最小size
 
 let adjustOptions = {
     allowFontScale: false,
@@ -25,8 +25,6 @@ let adjustOptions = {
  * */
 function adjust(size) {
     const adjustedSize = size * device.width / adjustOptions.designWidth;
-
-    // 四舍五入取逻辑像素1px的整数倍
     return PixelRatio.roundToNearestPixel(adjustedSize);
 };
 

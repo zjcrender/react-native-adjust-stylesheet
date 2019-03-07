@@ -44,7 +44,7 @@ const styles = StyleSheet.adjust({
 })
 
 
-adjust(20)  // => 设配后的尺寸
+adjust(20)  // => 适配后的尺寸
 // 单独使用
 const styles2 = StyleSheet.create({
     container: {

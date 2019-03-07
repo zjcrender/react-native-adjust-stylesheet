@@ -1,6 +1,6 @@
 {
   "name": "react-native-adjust-stylesheet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react native样式适配工具",
   "repository": {
     "url": "git@github.com:zjcrender/react-native-adjust-stylesheet.git",
